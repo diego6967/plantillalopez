@@ -20,7 +20,7 @@ const mostrarproductos = datos => {
         card.className ='card'
         card.innerHTML = `  <div class="top">
                         <img src="images/productos/arandanos.jpg" alt="">
-                        <p class="titProd">PRODUCTO 1</p>
+                        <p class="titProd">${item.tittle}</p>
                         <p class="descrpcion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus natus </p>
                         <a href="opiniones.html" class="resenias">ver reseñas</a>
                     </div>
